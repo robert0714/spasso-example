@@ -7,8 +7,8 @@ Vue.config.productionTip = false
 const oauth2ProviderProperties = {
   clientId: 'spasso',
   // clientSecret: '12345',
-  accessTokenUri: 'http://localhost:8080/auth/realms/spasso/protocol/openid-connect/token',
-  authorizationUri: 'http://localhost:8080/auth/realms/spasso/protocol/openid-connect/auth',
+  accessTokenUri: 'http://localhost:8888/auth/realms/spasso/protocol/openid-connect/token',
+  authorizationUri: 'http://localhost:8888/auth/realms/spasso/protocol/openid-connect/auth',
   redirectUri: 'http://localhost:4200',
   scopes: ['openid', 'profile']
 };
